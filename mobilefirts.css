@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,500;1,700;1,800&display=swap');
+
+
+   /* font-family: 'Open Sans', sans-serif;
+    font-family: ''Luckiest Guy', cursive; */
+
+.flex-box{
+    display: flex;
+}
+.segunda-foto{
+    display: none;
+}
+img{
+    width: 399px;
+}
+
+#mae{
+    display: grid;
+    grid-template-columns: 390px;
+    gap: 30px;
+    
+    
+
+
+}
+
+.crie2 img{
+    max-width: 380px;
+    
+}
+.crie3 p{
+    text-align: start;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+@media screen and (min-width: 399px){
+    body{
+        
+        align-items: center;
+    }
+    .flex-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr;
+        width: 1280px;
+        height: 459px; 
+        background-image: url(assets/Header2.png);
+       
+    }
+    .primeira-foto{
+        display: none;
+    }
+    #mae{
+        display: grid;
+        grid-template-columns: 1280px;
+        grid-template-rows: 400px;
+        gap: 30px; 
+    
+    
+    }
+    .crie img{
+        display: none;
+    }
+    .crie{
+        background-image: url("assets/Section\ 2.png");
+        background-repeat: no-repeat;
+        
+    }
+    .crie2 img{
+        display: none;
+    }
+    .crie2 {
+        background-image: url(assets/telagrande2.png);
+        height: 400px;
+    }
+    .crie4 img{
+        display: none; 
+    }
+    .crie4{
+        background-image: url(assets/telagrande3.png);
+        height: 400px;
+    }
+    .crie5 img{
+        display: none;
+    }
+    .crie5{
+        background-image: url(assets/telagrande4.png);
+        height: 900px;
+    }
+
+}
+    
